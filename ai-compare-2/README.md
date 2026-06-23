@@ -2,7 +2,7 @@
 
 > A comprehensive comparison of leading AI models in 2026 — benchmarks, pricing, use cases, and how to choose.
 
-Synced from the Mane wiki. Last updated: 2026-06-23T14:06:01.720Z.
+Synced from the Mane wiki. Last updated: 2026-06-23T14:09:18.157Z.
 
 ## Articles
 - Benchmarks & Rankings
