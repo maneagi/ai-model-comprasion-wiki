@@ -3,7 +3,7 @@ title: "AI Model Comparison (2026)"
 description: "A comprehensive comparison of leading AI models in 2026 — benchmarks, pricing, use cases, and how to choose."
 slug: ai-compare-2
 updated_by: agent
-updated_at: 2026-06-19T12:05:28.389Z
+updated_at: 2026-06-23T14:06:01.720Z
 ---
 # AI Model Comparison (2026)
 
@@ -19,5 +19,41 @@ This wiki breaks down the key dimensions you need to pick the right model:
 - **Pricing & API Costs** — per-token rates, subscription tiers, hidden costs
 - **Context Window & Speed** — how much they can read, how fast they respond
 - **How to Choose** — decision framework for individuals and teams
+
+## Pricing at a Glance
+
+### Consumer Subscriptions
+
+| Platform | Free | Mid-tier | Pro/Ultra |
+|---|---|---|---|
+| ChatGPT | ✅ limited | $20/mo (Plus) | $100–200/mo (Pro) |
+| Claude | ✅ limited | $20/mo (Pro) | ~$100/mo (Max) |
+| Gemini | ✅ limited | $8/mo (Plus) | $20/mo (AI Pro) · $100–200/mo (AI Ultra) |
+| Grok | ✅ via X Premium | $30/mo (SuperGrok) | — |
+| Perplexity | ✅ limited | $20/mo (Pro) | — |
+
+### API Pricing (per 1M tokens, input / output)
+
+| Model | Input | Output | Notes |
+|---|---|---|---|
+| GPT-5.5 | $5.00 | $15.00 | Largest ecosystem |
+| Claude Opus 4.8 | $5.00 | $25.00 | Best coder; no long-context surcharge |
+| Gemini 3.1 Pro | ~$3.50 | ~$10.50 | Best reasoning per dollar |
+| Gemini 2.5 Flash | $0.15 | $0.60 | Cheapest high-quality US provider |
+| DeepSeek V3.2 | $0.14 | $0.28 | Cheapest overall; GDPR caution |
+| Mistral Small 3.2 | $0.10 | $0.30 | GDPR-compliant EU budget option |
+
+### Price-to-Performance Summary
+
+| Rank | Model | Blended $/1M | Best for |
+|---|---|---|---|
+| 🥇 1 | Gemini 2.5 Flash | ~$0.40 | High-volume tasks, RAG, summarisation |
+| 🥈 2 | DeepSeek V3.2 | ~$0.21 | Cost-sensitive workloads (non-EU) |
+| 🥉 3 | Mistral Small 3.2 | ~$0.20 | EU/GDPR budget workloads |
+| 4 | Gemini 3.1 Pro | ~$7.00 | Complex reasoning at competitive rates |
+| 5 | GPT-5.5 | ~$10.00 | Broad ecosystem, plugin-heavy workflows |
+| 6 | Claude Opus 4.8 | ~$15.00 | Coding, long-context; highest quality ceiling |
+
+> **Quick rule of thumb:** Frontier models (GPT-5.5, Gemini Pro, Claude Opus) cost 20–70× more than Flash-tier models. Routing easy queries to Gemini Flash or DeepSeek can cut API spend by 60–80% with minimal quality loss. See the full [Pricing & API Costs](ai-compare-pricing) child article for cost-saving tips, batch discounts, and caching strategies.
 
 > Data current as of June 2026. Benchmarks shift fast — check [Vellum LLM Leaderboard](https://www.vellum.ai/llm-leaderboard) and [LLM Stats](https://llm-stats.com/) for the latest scores.
